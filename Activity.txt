@@ -1,4 +1,6 @@
 
+cron "*/1 1-23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
+
 cron "0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dongqiudi/dongqiudi.js, tag=懂球帝
 
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=52破解
