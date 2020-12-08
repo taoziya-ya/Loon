@@ -16,7 +16,7 @@ http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.git
 
 http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, timeout=10,  tag=滴滴
 
-http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/taoziya-ya/Quantumult-X/master/Scripts/txnews.js, requires-body=true, tag=腾讯新闻
+http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true, tag=腾讯新闻
 
 http-request https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点
 
