@@ -2,7 +2,7 @@ cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scrip
 
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_apple_live.js, tag=苹果抽奖机
 
-cron "30 20-23/1 * * *" script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/master/jd_live_redrain2.js, tag=超级直播间红包雨
+cron "30 */20-23 * * *" script-path=https://raw.githubusercontent.com/shylocks/jd_scripts/master/jd_live_redrain2.js, tag=超级直播间红包雨
 
 cron "*/1 1-23 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
 
