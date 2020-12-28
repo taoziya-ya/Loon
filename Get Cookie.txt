@@ -24,11 +24,7 @@ http-request https:\/\/ios\.baertt\.com\/v5\/article\/red_packet script-path=htt
 
 http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true, tag=中青看点
 
-http-request ^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js, requires-body=false, timeout=10, tag=京东赚赚
-
 http-request ^https?:\/\/iface(\d)?\.iqiyi\.com\/ script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,timeout=10,  tag=爱奇艺
-
-http-request https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js, requires-body=true,tag=伊利
 
 http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, requires-body=true,tag=贴吧
 
@@ -37,5 +33,5 @@ http-request ^https:\/\/access.video.qq.com\/user\/auth_refresh script-path=http
 http-request ^https?:\/\/v.qq.com\/x\/bu\/mobile_checkin script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js, requires-body=true,tag=腾讯视频
 
 
-hostname = api.m.jd.com,api.dongqiudi.com,as.xiaojukeji.com,www.52pojie.cn,api.inews.qq.com, *.youth.cn, ios.baertt.com,club.yili.com,ifac*.iqiyi.com,draw.jdfcloud.com, c.tieba.baidu.com,*.video.qq.com, v.qq.com
+hostname = api.m.jd.com,api.dongqiudi.com,as.xiaojukeji.com,www.52pojie.cn,api.inews.qq.com, *.youth.cn, ios.baertt.com,ifac*.iqiyi.com,draw.jdfcloud.com, c.tieba.baidu.com,*.video.qq.com, v.qq.com
 
